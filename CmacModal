@@ -1,0 +1,11 @@
+  var exampleCallback = function() {
+    console.log("Order complete!");
+  };
+
+  window.EBWidgets.createWidget({
+    widgetType: "checkout",
+    eventId: "52766401728",
+    modal: true,
+    modalTriggerElementId: "example-widget-trigger",
+    onOrderComplete: exampleCallback
+  });
