@@ -4,7 +4,7 @@
 
   window.EBWidgets.createWidget({
     widgetType: "checkout",
-    eventId: "52766401728",
+    eventId: "156963960431",
     modal: true,
     modalTriggerElementId: "example-widget-trigger",
     onOrderComplete: exampleCallback
